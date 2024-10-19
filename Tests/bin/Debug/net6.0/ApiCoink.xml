@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCoink</name>
+    </assembly>
+    <members>
+        <member name="T:ApiOLSoftwareRest.Controllers.UsuarioController">
+            <summary>
+            Controlador de Condicion
+            </summary>
+        </member>
+        <member name="M:ApiOLSoftwareRest.Controllers.UsuarioController.#ctor(MediatR.ISender,Core.Interfaces.IUserService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:ApiOLSoftwareRest.Controllers.UsuarioController.Create(Domain.DTO.UsuarioRequest)">
+            <summary>
+            Metodo de crear el usuario     
+            </summary>
+        </member>
+        <member name="M:ApiOLSoftwareRest.Controllers.UsuarioController.Update(Domain.DTO.UserUpdateRequest)">
+            <summary>
+            Metodo de actualizar el usuario     
+            </summary>
+        </member>
+        <member name="M:ApiOLSoftwareRest.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Metodo de eliminar el usuario     
+            </summary>
+        </member>
+    </members>
+</doc>

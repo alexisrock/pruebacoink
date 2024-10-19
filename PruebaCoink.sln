@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{D9B19639-8623-4A9C-87CE-8D3007E60B73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{927DC9FF-E5AE-4A50-AC30-53F67080A973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2E522141-189C-401D-BABA-4C6F4DE2540A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{5F105942-11A6-4AA2-9E78-8ED2BC8E0362}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{0D0BC33F-7268-40A2-A86C-7A48946E412F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{141D922F-9DCE-44A6-8C90-DF7B223BB20B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{C69B2BE3-E8A6-4C22-97F8-C85794E39B0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{93A7D05D-E88A-4D36-B66E-2173078FA5AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{91D7E5F9-3091-4A87-84B2-D129230D8D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCoink", "ApiCoink\ApiCoink.csproj", "{E4CF6DAC-92C5-4999-9D0D-D5417B706055}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D0BC33F-7268-40A2-A86C-7A48946E412F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0BC33F-7268-40A2-A86C-7A48946E412F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0BC33F-7268-40A2-A86C-7A48946E412F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0BC33F-7268-40A2-A86C-7A48946E412F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{141D922F-9DCE-44A6-8C90-DF7B223BB20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141D922F-9DCE-44A6-8C90-DF7B223BB20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141D922F-9DCE-44A6-8C90-DF7B223BB20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141D922F-9DCE-44A6-8C90-DF7B223BB20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C69B2BE3-E8A6-4C22-97F8-C85794E39B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C69B2BE3-E8A6-4C22-97F8-C85794E39B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C69B2BE3-E8A6-4C22-97F8-C85794E39B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C69B2BE3-E8A6-4C22-97F8-C85794E39B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91D7E5F9-3091-4A87-84B2-D129230D8D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D7E5F9-3091-4A87-84B2-D129230D8D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D7E5F9-3091-4A87-84B2-D129230D8D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D7E5F9-3091-4A87-84B2-D129230D8D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4CF6DAC-92C5-4999-9D0D-D5417B706055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4CF6DAC-92C5-4999-9D0D-D5417B706055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4CF6DAC-92C5-4999-9D0D-D5417B706055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4CF6DAC-92C5-4999-9D0D-D5417B706055}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D0BC33F-7268-40A2-A86C-7A48946E412F} = {2E522141-189C-401D-BABA-4C6F4DE2540A}
+		{141D922F-9DCE-44A6-8C90-DF7B223BB20B} = {5F105942-11A6-4AA2-9E78-8ED2BC8E0362}
+		{C69B2BE3-E8A6-4C22-97F8-C85794E39B0D} = {927DC9FF-E5AE-4A50-AC30-53F67080A973}
+		{91D7E5F9-3091-4A87-84B2-D129230D8D7E} = {93A7D05D-E88A-4D36-B66E-2173078FA5AB}
+		{E4CF6DAC-92C5-4999-9D0D-D5417B706055} = {D9B19639-8623-4A9C-87CE-8D3007E60B73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {698292ED-F5FA-4889-83A9-7983AC8A06B1}
+	EndGlobalSection
+EndGlobal
