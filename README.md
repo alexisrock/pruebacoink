@@ -3,7 +3,7 @@
 prueba
  se debe tener instalado el sdk de net6 para el correcto funcionamiento del proyecto
 
-ejecutar en sql server el script ScriptInitial
+ejecutar en  el script ScriptInitial
 
 cambiar la cadena de conexion
 
