@@ -25,16 +25,11 @@ namespace Core.Repository
 
         }
 
-
-
         public async Task<List<UsuarioResponse>> GetAll()
         {
-
             var listPruebaSeleccion = await repository.GetAll();
             var list = MapperListesponse(listPruebaSeleccion);
             return list;
-
-
         }
         private List<UsuarioResponse> MapperListesponse(List<UserSp> listPruebaSeleccion)
         {
@@ -43,6 +38,7 @@ namespace Core.Repository
             listPruebaSeleccion.ForEach(c =>
             {
                 var Response = mapper.Map<UsuarioResponse>(c);
+                Response.Id_usuario = c.id;
                 listResponse.Add(Response);
             });
             return listResponse;

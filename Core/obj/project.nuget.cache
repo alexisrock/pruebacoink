@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KDO62q8v9FGAASa1MUoX+ucqjOF9gD7n+wXQ07wF4wRISAY/9jTZ9OjVdkZDEDBueVsNU563xTmIS/beUEss0Q==",
+  "dgSpecHash": "rmAMGdZHs0/v2GpWW4odo5t1JNFCHXPwm5vzuRn4ceMuG5WrJ/JwzqvJlPjli09WNHMAkxHNhFYrnRR3XyUTSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Documents\\Proyectos\\Net\\pruebacoink\\Core\\Core.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,8 @@
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\npgsql\\6.0.0\\npgsql.6.0.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.0\\npgsql.entityframeworkcore.postgresql.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

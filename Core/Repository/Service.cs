@@ -79,14 +79,14 @@ namespace Core.Repository
                 {
 
                     var user = await repository.GetByIdOthers(request.Id_usuario);
-                    user.Telefono = request.Telefono;
-                    user.Nombre = request.Nombre;
-                    user.IdMunicipio = request.IdMunicipio;
-                    user.IdDepartamento = request.IdDepartamento;
-                    user.Idpais = request.Idpais;
+                    user.telefono = request.Telefono;
+                    user.nombre = request.Nombre;
+                    user.idmunicipio = request.IdMunicipio;
+                    user.iddepartamento = request.IdDepartamento;
+                    user.idpais = request.Idpais;
 
 
-                    user.Direccion = request.Direccion;
+                    user.direccion = request.Direccion;
                     await repository.Update(user);
                     outPut.Mensaje = "Usuario actualizada con éxito";
                     return outPut;

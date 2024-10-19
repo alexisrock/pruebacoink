@@ -8,16 +8,16 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    [Table("Municipio")]
+    [Table("municipio")]
     public class Municipio
     {
         [Required, Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int id { get; set; }
       
-        public string? Nombre { get; set; }
+        public string? nombre { get; set; }
         [ForeignKey("Departamento")]
-        public int IdDepartamento { get; set; }
-        [ForeignKey("IdDepartamento")]
+        public int iddepartamento { get; set; }
+        [ForeignKey("iddepartamento")]
         public Departamento? Departamento { get; set; }
 
 }

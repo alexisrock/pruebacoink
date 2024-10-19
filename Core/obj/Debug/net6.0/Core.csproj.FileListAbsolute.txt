@@ -76,3 +76,4 @@ C:\Users\Lenovo\Documents\Proyectos\Net\pruebacoink\Core\obj\Debug\net6.0\refint
 C:\Users\Lenovo\Documents\Proyectos\Net\pruebacoink\Core\obj\Debug\net6.0\Core.pdb
 C:\Users\Lenovo\Documents\Proyectos\Net\pruebacoink\Core\obj\Debug\net6.0\Core.genruntimeconfig.cache
 C:\Users\Lenovo\Documents\Proyectos\Net\pruebacoink\Core\obj\Debug\net6.0\ref\Core.dll
+C:\Users\Lenovo\Documents\Proyectos\Net\pruebacoink\Core\obj\Debug\net6.0\Core.sourcelink.json

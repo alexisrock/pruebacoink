@@ -8,10 +8,15 @@ namespace Domain.Entities
 {
     public class UserSp
     {
-        public int Id_usuario { get; set; }
-        public string Nombre { get; set; } = string.Empty;
-        public string? Telefono { get; set; }
-        public string? Direccion { get; set; }
-        public int IdMunicipio { get; set; }
+        public int id { get; set; }
+        public string nombre { get; set; } = string.Empty;
+        public string? telefono { get; set; }
+        public string? direccion { get; set; }
+        public int idmunicipio { get; set; }
+        public int idpais { get; set; }
+        public int iddepartamento { get; set; }
+
+        
+
     }
 }

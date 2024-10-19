@@ -55,11 +55,7 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddDbContext<PruebaDBContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Bd"),
-    sqlServerOptionsAction: options =>
-    {
-        options.EnableRetryOnFailure();
-    });
+    options.UseNpgsql(builder.Configuration.GetConnectionString("Bd"));
 });
 
 builder.Services.AddScoped(typeof(IDataAccess<>), typeof(DataAccess<>));

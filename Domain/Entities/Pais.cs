@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    [Table("Pais")]
+    [Table("pais")]
     public class Pais
     {
         [Required, Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int id { get; set; }
         
-        public string? Nombre { get; set; }
+        public string? nombre { get; set; }
     }
 }

@@ -1,15 +1,8 @@
 ﻿
 using DataAccess.Interfaces;
-using Domain.Common;
-using Domain.Entities;
-using Microsoft.Data.SqlClient;
+using Domain.Entities; 
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DataAccess.Repository
 {
@@ -27,12 +20,12 @@ namespace DataAccess.Repository
        
         public async Task<List<UserSp>> GetAll()
         {
-            var list = await _Context.SpGetUser.FromSqlRaw(" EXEC  SpGetUser ").ToListAsync();
+            var list = await _Context.SpGetUser.FromSqlRaw("  SELECT * FROM   SpGetUser()").ToListAsync();
             return list;
         }
         public async Task<UserSp> GetById(int id)
         {
-            var list = await _Context.SpGetUserById.FromSqlRaw(" EXEC  SpGetUserById @IdUser ", new SqlParameter("@IdUser", id)).ToListAsync();
+            var list = await _Context.SpGetUserById.FromSqlRaw("SELECT * FROM  SpGetUserById({0})", id).ToListAsync();
             var result = list.FirstOrDefault();
             return result;
         }

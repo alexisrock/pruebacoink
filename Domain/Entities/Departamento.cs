@@ -8,15 +8,15 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    [Table("Departamento")]
+    [Table("departamento")]
     public  class Departamento
     {
         [Required, Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }      
-        public string? Nombre { get; set; }
+        public int id { get; set; }      
+        public string? nombre { get; set; }
         [ForeignKey("Pais")]
-        public int Idpais { get; set; }
-        [ForeignKey("Idpais")]
+        public int idpais { get; set; }
+        [ForeignKey("idpais")]
         public Pais? Pais { get; set; }
 
 

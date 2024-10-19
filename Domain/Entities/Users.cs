@@ -9,27 +9,27 @@ using System.Threading.Tasks;
 
 namespace Domain.Entities
 {
-    [Table("Users")]
+    [Table("users")]
     public class Users
     {
         [Required, Key, DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id_usuario { get; set; }
+        public int id_usuario { get; set; }
         
-        public string Nombre { get; set; } = string.Empty;
-        public string? Telefono { get; set; }
-        public string? Direccion { get; set;}
+        public string nombre { get; set; } = string.Empty;
+        public string? telefono { get; set; }
+        public string? direccion { get; set;}
         [ForeignKey("Municipio")]
-        public int IdMunicipio { get; set; }    
+        public int idmunicipio { get; set; }    
        
-        [ForeignKey("IdMunicipio")]
+        [ForeignKey("idmunicipio")]
         public Municipio Municipio { get; set; }
         [ForeignKey("Departamento")]
-        public int IdDepartamento { get; set; }
-        [ForeignKey("IdDepartamento")]
+        public int iddepartamento { get; set; }
+        [ForeignKey("iddepartamento")]
         public Departamento Departamento { get; set; }
         [ForeignKey("Pais")]
-        public int Idpais { get; set; }
-        [ForeignKey("Idpais")]
+        public int idpais { get; set; }
+        [ForeignKey("idpais")]
         public Pais Pais { get; set; }
 
     }
