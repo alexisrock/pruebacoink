@@ -14,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers()
         .AddJsonOptions(JsonOptions =>
                 JsonOptions.JsonSerializerOptions.PropertyNamingPolicy = null);
+builder.WebHost.UseUrls("http://*:8089");
 builder.Services.AddEndpointsApiExplorer(); builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
